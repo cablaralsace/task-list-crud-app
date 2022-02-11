@@ -1,0 +1,11 @@
+<%= form_with scope: :task, url: 'task_update_path', model: @task, method: :put, locale: true do |form| %>
+  <h1> Edit Task </h1>
+  <%= form.label :person %>
+  <%= form.text_field :person %>
+
+  <%= form.label :overview %>
+  <%= form.text_field :overview %>
+  
+  <%= form.submit %>
+  
+<% end %>

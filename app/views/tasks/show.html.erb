@@ -1,0 +1,19 @@
+<h1>Task ID # <%= @task.id %> </h1>
+
+<table>
+  <thead>
+    <tr>
+      <th> Person </th>
+      <th> Overview </th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td> <%= @task.person %> </td>
+        <td> <%= @task.overview %> </td>
+      </tr>
+  </tbody>
+
+  <td><%= link_to "Home", tasks_path %></td>
+</table>

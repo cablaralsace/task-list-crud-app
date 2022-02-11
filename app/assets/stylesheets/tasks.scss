@@ -1,0 +1,117 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.index-header {
+  color: #fa4454;
+  text-align: center;
+}
+
+.index-table {
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.index-table-headers {
+  color: #dc3d4b;
+}
+
+//Index Table Headers
+th.index-header-id{
+  text-align: left;
+  // padding-left: 2em;
+}
+
+th.index-header-player{
+  text-align: center;
+  padding-left: 0.2em;
+}
+
+th.index-header-username{
+  text-align: left;
+  padding-left: 1em;
+}
+
+// Index Table Elements
+.index-element-id {
+  color: #364966;
+  text-align: left;
+  // padding-left: 2em;
+}
+
+.index-element-title {
+  color: 	#b78460;
+  text-align: center;
+  padding-left: 0.2em;
+}
+
+td.index-element-body {
+  color: 	#042e27;
+  text-align: left;
+  padding-left: 1em;
+}
+
+
+// INDEX BUTTONS
+.index-btn {
+  margin-left: 50%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background-color:white;
+  border:1px solid black;
+  box-shadow: 1px 1px 1px black;
+
+  border-radius: 4px;
+
+  font-size: .6em; 
+  color: black;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  border:1px solid #dc3d4b;
+  box-shadow: 2px 2px 2px pink;
+  color: #dc3d4b;
+}
+
+.index-btn:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.index-new-btn {
+  margin-left: 50%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  white-space: nowrap;
+  background-color:white;
+  border:2px solid black;
+  box-shadow: 1px 1px 1px black;
+
+  border-radius: 4px;
+
+  font-size: .9em; 
+  color: black;
+  cursor: pointer;
+  
+}
+
+.index-new-btn:hover {
+  border:2px solid #dc3d4b;
+  box-shadow: 5px 4px 3px pink;
+  color: #dc3d4b;
+}

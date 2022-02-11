@@ -1,0 +1,11 @@
+<%= form_with scope: :task, model: @task, locale: true do |form| %>
+  <h1> New Task </h1>
+  <%= form.label :person %>
+  <%= form.text_field :person %>
+
+  <%= form.label :overview %>
+  <%= form.text_field :overview %>
+  
+  <%= form.submit %>
+  
+<% end %>
